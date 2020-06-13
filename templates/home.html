@@ -1,0 +1,8 @@
+<h2 style="color:green">Put your text in the box below</h2>
+<form action="{% url 'count' %}">
+  <textarea cols="45" rows="15" name="fulltext"></textarea> <br/> <br/>
+  <input type="submit" value="Count the Words!""/>
+</form>
+<br/>
+<br/>
+<a href="{% url 'about' %}"><h4 style='color:blue'><u><strong>About</strong></u></h4></a>
